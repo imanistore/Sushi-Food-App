@@ -1,0 +1,441 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content h1 {
+  margin-bottom: 10px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 75px;
+  color: #ffffff;
+}
+.content p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  text-align: center;
+  color: #ffffff;
+}
+.myButton {
+  text-align: center;
+  margin-top: 30px;
+}
+button {
+  width: 250px;
+  height: 80px;
+  background: #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 38px;
+  margin: 0 10px;
+  color: #000000;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+.main-sect {
+  display: flex;
+}
+.cart-2 {
+  padding-top: 40px;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90px;
+  height: 764px;
+  margin-left: 20px;
+  margin-top: 43px;
+  background: #0c0b0b;
+  border-radius: 24px;
+  box-shadow: 20px 10px 55px 6px rgba(250, 236, 236, 0.72);
+}
+
+.logo {
+  height: 98px;
+  left: 99.12px;
+  top: 58.65px;
+  font-family: "Baloo Bhai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 98px;
+  color: #f1d5bb;
+}
+.vector {
+  display: flex;
+  align-items: center;
+  height: 98px;
+}
+.rectangle {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90px;
+  height: 98px;
+  left: 56px;
+  top: 302px;
+
+  background: #f1d5bb;
+}
+.restaurant {
+  padding-top: 30px;
+  left: 6.88%;
+  right: 90.35%;
+  top: 34.3%;
+  bottom: 61.7%;
+}
+.cart {
+  margin-top: 45px;
+  padding-top: 30px;
+  height: 98px;
+}
+.place {
+  margin-top: 43px;
+  padding-top: 22px;
+  height: 83px;
+}
+
+.vec {
+  margin-top: 40px;
+  padding-top: 30px;
+  height: 98px;
+}
+.second-sec {
+  display: flex;
+  flex-direction: column;
+}
+.sushi {
+  margin-top: 35px;
+  height: 63px;
+  left: 164px;
+  top: 43px;
+
+  font-style: normal;
+  font-weight: 400px;
+  color: #000000;
+}
+h2 {
+  font-family: "Mulish";
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 63px;
+  letter-spacing: 0em;
+  margin-left: 36px;
+}
+.rect {
+  background-color: #d1abab;
+  width: 243px;
+  height: 5px;
+  left: 243px;
+  top: 106px;
+  margin-left: 36px;
+}
+
+.images {
+  margin-top: 30px;
+  margin-left: 38px;
+}
+
+.top-images {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+.bottom-images {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+.top-p {
+  display: flex;
+  column-gap: 35px;
+}
+.bottom-p {
+  display: flex;
+  column-gap: 35px;
+}
+.button {
+  width: 118px;
+  height: 25px;
+  left: 714px;
+  top: 855px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  width: 194px;
+  height: 54px;
+  left: 676px;
+  top: 841px;
+
+  background: #000000;
+  border-radius: 2px;
+}
+.hold {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
+.color {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90px;
+  height: 98px;
+  left: 56px;
+  top: 302px;
+
+  background: #f1d5bb;
+}
+
+.transparent::placeholder {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 38px;
+  /* identical to box height */
+
+  color: rgba(0, 0, 0, 0.6);
+}
+.transparent {
+  padding: 20px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 38px;
+  /* identical to box height */
+
+  color: rgb(0, 0, 0);
+}
+
+.restau {
+  padding-top: 30px;
+  left: 6.88%;
+  right: 90.35%;
+  top: 34.3%;
+  bottom: 61.7%;
+}
+.shopping {
+  margin-top: 30px;
+}
+.second-part {
+  display: flex;
+  flex-direction: column;
+}
+.rect-2 {
+  background-color: #d1abab;
+  width: 100px;
+  height: 5px;
+  left: 243px;
+  top: 106px;
+  margin-left: 36px;
+}
+.content-001 {
+  display: flex;
+  flex-direction: column;
+}
+.outer-body {
+  display: flex;
+  padding-top: 17px;
+  margin-left: 30px;
+}
+.inner-1 {
+  display: flex;
+  padding-top: 38px;
+  padding-left: 20px;
+  flex-direction: column;
+  width: 608px;
+  height: 553px;
+  background: #f8d2af;
+  border-radius: 3px;
+}
+.inner-2 {
+  display: flex;
+  flex-direction: column;
+}
+.in-2 {
+  display: flex;
+  width: 370px;
+  height: 277px;
+  margin-left: 41px;
+  padding-top: 21px;
+  background: #f1d5bb;
+  border-radius: 3px;
+}
+.inn2-con {
+  margin-left: 34px;
+  font-family: "Mulish";
+  line-height: 60px;
+  color: #000000;
+}
+.in-3 {
+  font-family: "Mulish";
+  padding-top: 18px;
+  height: 277px;
+  padding-left: 39px;
+  margin-left: 41px;
+  line-height: 50px;
+  color: #000000;
+  border: 1px solid #f1d5bb;
+}
+
+.inn-con {
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px;
+  height: 61px;
+  left: 264px;
+  top: 172px;
+  background: url(food-1);
+}
+.inn-conp {
+  display: flex;
+}
+.inn-con1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  align-content: flex-start;
+}
+h3 {
+  width: 162px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.white {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 46px;
+  height: 35px;
+
+  background: #ffffff;
+}
+.inn-con2 {
+  display: flex;
+
+  padding-left: 54px;
+  align-content: flex-start;
+}
+.star {
+  margin-left: 93px;
+}
+
+.sub {
+  display: flex;
+}
+.sub1 {
+  margin-right: 40pxpx;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.sub2 {
+  margin-left: 40px;
+
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.button {
+  width: 271px;
+  height: 66px;
+  padding-top: 10px;
+  background: #000000;
+}
+.in-3 {
+  font-family: "Mulish";
+  padding-top: 18px;
+  padding-left: 39px;
+  margin-left: 40px;
+  line-height: 50px;
+  color: #000000;
+  border: 1px solid #f1d5bb;
+}
+.transparent {
+  width: 271px;
+  height: 66px;
+  margin-top: 25px;
+  background: #ffffff;
+  border: 1px solid #181717;
+}
+.ap {
+  width: 166px;
+  height: 69px;
+  margin-top: 28px;
+  background: #000000;
+  font-size: 28px;
+  line-height: 38px;
+  color: #ffffff;
+}
+.copy {
+  padding-top: 162px;
+  padding-left: 72px;
+  font-family: "Mulish";
+  line-height: 38px;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+.right {
+  padding-top: 50px;
+  padding-left: 72px;
+  height: 20px;
+  font-family: "Mulish";
+  line-height: 38px;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.promo {
+  font-family: "Mulish";
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
